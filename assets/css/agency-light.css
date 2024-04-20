@@ -1,13 +1,13 @@
 :root {
-  --ogency-black: #ffffff;
-  --ogency-black-rgb: 255, 255, 255;
-  --ogency-white: #000000;
-  --ogency-white-rgb: 0, 0, 0;
-  --ogency-black2: #f1f1f1;
-  --ogency-black2-rgb: 241, 241, 241;
-  --ogency-black3: #e1e1e1;
-  --ogency-black3-rgb: 225, 225, 225;
-  --ogency-color: #5d5d5d;
+  --agency-black: #ffffff;
+  --agency-black-rgb: 255, 255, 255;
+  --agency-white: #000000;
+  --agency-white-rgb: 0, 0, 0;
+  --agency-black2: #f1f1f1;
+  --agency-black2-rgb: 241, 241, 241;
+  --agency-black3: #e1e1e1;
+  --agency-black3-rgb: 225, 225, 225;
+  --agency-color: #5d5d5d;
 }
 
 .main-slider__one-item__shape-1,
@@ -29,9 +29,9 @@
   color: #101010;
 }
 
-.ogency-btn,
+.agency-btn,
 .video-one__banner__curved-circle-box .video-popup:hover,
-.project-one .ogency-btn:hover,
+.project-one .agency-btn:hover,
 .team-one__item__social-wrapper:hover .team-one__item__links,
 .sliding-text__list li,
 .main-footer__social a,
@@ -40,27 +40,27 @@
 .testimonial-one__item__author-thumb span,
 .video-one__banner__curved-circle-box .curved-circle,
 .feature-one__item__content--icon {
-  color: var(--ogency-black);
+  color: var(--agency-black);
 }
 
 .blog-one__item__image span,
 .video-one__banner__curved-circle-box .video-popup {
-  background-color: var(--ogency-black);
+  background-color: var(--agency-black);
 }
 
 .blog-one__item__image span,
 .video-one__banner__curved-circle-box .video-popup {
-  color: var(--ogency-white);
+  color: var(--agency-white);
 }
 
 .testimonial-one__carousel.owl-carousel .owl-nav button,
 .team-one__item__links,
-.project-one .ogency-btn {
-  color: var(--ogency-color);
+.project-one .agency-btn {
+  color: var(--agency-color);
 }
 
 .project-one__item__btn {
-  color: var(--ogency-black3);
+  color: var(--agency-black3);
 }
 
 .main-footer {
@@ -68,13 +68,13 @@
 }
 
 .main-footer__social a {
-  background-color: var(--ogency-white);
+  background-color: var(--agency-white);
 }
 
 .main-footer__top {
-  border-bottom-color: RGBA(var(--ogency-black-rgb), 0.1);
+  border-bottom-color: RGBA(var(--agency-black-rgb), 0.1);
 }
 
 .team-one__item__links {
-  background-color: var(--ogency-black2);
+  background-color: var(--agency-black2);
 }

@@ -1,0 +1,18 @@
+
+
+.read-me-arrows{
+    transform: rotate(-45deg);
+}
+
+.service-icons{
+    height: 45px;
+    transition: ease-in-out .6s;
+}
+
+.service-icons:hover{
+    height: 43px;
+}
+
+.count-box{
+    color: black;
+}
