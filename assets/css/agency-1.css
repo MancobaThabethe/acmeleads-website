@@ -16,3 +16,7 @@
 .count-box{
     color: black;
 }
+
+.mobile-nav_home_links a{
+    color: #000 !important;
+}
