@@ -4992,6 +4992,10 @@ h6 {
   position: relative;
   background-color: var(--agency-black2);
   padding: 40px 50px 33px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
