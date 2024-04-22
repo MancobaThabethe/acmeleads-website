@@ -6597,6 +6597,8 @@ h6 {
   font-size: 15px;
   line-height: 30px;
   margin: 0;
+  height: 150px;
+  overflow: auto;
 }
 
 @media (max-width: 991px) {
