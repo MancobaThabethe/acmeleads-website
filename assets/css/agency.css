@@ -1999,6 +1999,7 @@ h6 {
 .main-menu .container-fluid {
   position: relative;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   position: relative;
 }
@@ -2040,7 +2041,7 @@ h6 {
 }
 
 .main-menu__nav {
-  padding-left: 214px;
+  padding-left: 0;
 }
 
 @media (max-width: 1199px) {
@@ -2244,7 +2245,6 @@ h6 {
 }
 
 .main-menu__right {
-  margin-left: auto;
   display: flex;
   align-items: center;
 }
@@ -3287,12 +3287,12 @@ h6 {
   display: inline-block;
   font-size: 59px;
   color: var(--agency-base);
-  transform: rotate(0deg);
+  transform: rotate(-45deg);
   transition: transform 500ms ease;
 }
 
 .main-slider__one-item__content-curved-circle-box .main-slider__one-item__content-arrow-down:hover span {
-  transform: rotate(-45deg);
+  transform: rotate(-90deg);
 }
 
 .main-slider .active .main-slider__one-item__shape-1 {
@@ -5071,6 +5071,7 @@ h6 {
   font-size: 18px;
   margin: 0 0 0 5px;
   top: 4px;
+  transform: rotate(-45deg);
   position: relative;
   transition: transform 400ms ease;
 }
@@ -5080,7 +5081,7 @@ h6 {
 }
 
 .service-one__item__btn:hover span {
-  transform: rotate(-45deg);
+  transform: rotate(-90deg);
 }
 
 /*-- Service 2 --*/
@@ -5452,6 +5453,7 @@ h6 {
 
 .service-three__item__hover__btn span {
   display: inline-block;
+  transform: rotate(-45deg);
   font-size: 22px;
   color: var(--agency-base);
   margin: 0 0 0 11px;
@@ -5465,7 +5467,7 @@ h6 {
 }
 
 .service-three__item__hover__btn:hover span {
-  transform: rotate(-45deg);
+  transform: rotate(-90deg);
 }
 
 .service-three__item:hover .service-three__item__hover {
@@ -8946,7 +8948,7 @@ h6 {
 }
 
 .faq-page__accrodion .accrodion.active .accrodion-title h4::before {
-  content: "\e91e";
+  content: "X";
   color: var(--agency-white);
 }
 
@@ -8972,8 +8974,7 @@ h6 {
 }
 
 .faq-page__accrodion .accrodion-title h4::before {
-  content: "\e91d";
-  font-family: 'icomoon' !important;
+  content: "Answer";
   font-size: 12px;
   color: var(--agency-base);
   position: absolute;
