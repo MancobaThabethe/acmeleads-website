@@ -31,3 +31,10 @@
 .appointment button{
     margin-top: 20px;
 }
+
+.get-started-btn{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
