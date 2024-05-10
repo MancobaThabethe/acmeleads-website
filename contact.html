@@ -116,26 +116,27 @@
                 </div><!-- section-title -->
                 <div class="contact-one__left text-center">
                     <div class="contact-one__form-box">
-                        <form action="assets/inc/sendemail.php" class="contact-one__form contact-form-validated" novalidate="novalidate">
+                        <form action="https://api.web3forms.com/submit" method="POST" class="contact-one__form contact-form-validated" novalidate="novalidate">
+                            <input type="hidden" name="access_key" value="5e84573d-bf81-4d23-860b-9489229434e0">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="contact-one__input-box">
-                                        <input type="text" placeholder="Your name" name="name">
+                                        <input type="text" placeholder="Your name" name="name" id="contactId" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="contact-one__input-box">
-                                        <input type="email" placeholder="Email address" name="email">
+                                        <input type="email" placeholder="Email address" name="email" id="email" required>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="contact-one__input-box">
-                                        <input type="text" placeholder="Phone" name="phone">
+                                        <input type="text" placeholder="Phone" name="phone" id="phone">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="contact-one__input-box">
-                                        <select class="selectpicker" aria-label="Default select example">
+                                        <select class="selectpicker" aria-label="Default select example" required>
                                             <option selected>Web Development</option>
                                             <option value="1">Web Development</option>
                                             <option value="2">Web Application</option>
@@ -147,10 +148,11 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="contact-one__input-box text-message-box">
-                                        <textarea name="message" placeholder="Write Comment"></textarea>
+                                        <textarea name="message" placeholder="Write Comment" id="message"></textarea>
                                     </div>
-                                    <div class="contact-one__btn-box">
-                                        <button type="submit" class="agency-btn">Send a Message</button>
+                                    <div class="h-captcha" data-captcha="true"></div>
+                                    <div class="contact-one__btn-box" id="contactBtnBox">
+                                        <button type="submit" class="agency-btn" id="submitBtn">Send a Message</button>
                                     </div>
                                 </div>
                             </div>
@@ -325,8 +327,10 @@
     <script src="assets/vendors/isotope/isotope.js"></script>
     <script src="assets/vendors/countdown/countdown.min.js"></script>
     <script id="setmore_script" type="text/javascript" src="https://storage.googleapis.com/fullintegration-live/webComponentAppListing/Container/setmoreIframeLive.js"></script>
+    <script src="https://web3forms.com/client/script.js" async defer></script>
     <!-- template js -->
     <script src="assets/js/agency.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
